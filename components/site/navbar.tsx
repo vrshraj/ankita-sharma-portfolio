@@ -2,8 +2,6 @@
 
 import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import { InstagramIcon, LinkedinIcon, FacebookIcon } from './social-icons'
-
 const links = [
   { id: 'home', label: 'Home' },
   { id: 'about', label: 'About' },
@@ -12,9 +10,6 @@ const links = [
   { id: 'contact', label: 'Contact' },
 ]
 
-const socials = [
-  { href: '#', label: 'LinkedIn', Icon: LinkedinIcon },
-]
 
 export function Navbar() {
   const [active, setActive] = useState('home')
@@ -90,19 +85,7 @@ export function Navbar() {
           ))}
         </ul>
 
-        {/* Socials */}
-        <div className="hidden items-center gap-4 md:flex">
-          {socials.map(({ href, label, Icon }) => (
-            <a
-              key={label}
-              href={href}
-              aria-label={label}
-              className="text-primary-foreground/90 transition-transform hover:-translate-y-0.5 hover:text-primary-foreground"
-            >
-              <Icon className="h-[18px] w-[18px]" />
-            </a>
-          ))}
-        </div>
+
 
         {/* Mobile toggle */}
         <button
@@ -135,13 +118,7 @@ export function Navbar() {
               </li>
             ))}
           </ul>
-          <div className="mt-4 flex items-center gap-5 px-3">
-            {socials.map(({ href, label, Icon }) => (
-              <a key={label} href={href} aria-label={label} className="text-primary-foreground/90">
-                <Icon className="h-5 w-5" />
-              </a>
-            ))}
-          </div>
+
         </div>
       )}
     </header>
