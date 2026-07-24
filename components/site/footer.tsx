@@ -8,7 +8,7 @@ const links = [
   { id: 'services', label: 'Services' },
   { id: 'testimonials', label: 'Testimonials' },
   { id: 'contact', label: 'Contact' },
-
+]
 
 export function Footer() {
   const handleClick = (e: React.MouseEvent, id: string) => {
@@ -40,7 +40,8 @@ export function Footer() {
                 </a>
               </li>
             ))}
-
+          </ul>
+        </nav>
       </div>
 
       <div className="border-t border-primary-foreground/15">
