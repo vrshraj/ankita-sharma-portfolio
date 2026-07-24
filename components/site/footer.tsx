@@ -1,6 +1,6 @@
 'use client'
 
-import { LinkedinIcon } from './social-icons'
+
 
 const links = [
   { id: 'home', label: 'Home' },
@@ -8,11 +8,7 @@ const links = [
   { id: 'services', label: 'Services' },
   { id: 'testimonials', label: 'Testimonials' },
   { id: 'contact', label: 'Contact' },
-]
 
-const socials = [
-  { href: '#', label: 'LinkedIn', Icon: LinkedinIcon },
-]
 
 export function Footer() {
   const handleClick = (e: React.MouseEvent, id: string) => {
@@ -44,21 +40,7 @@ export function Footer() {
                 </a>
               </li>
             ))}
-          </ul>
-        </nav>
 
-        <div className="flex items-center gap-5">
-          {socials.map(({ href, label, Icon }) => (
-            <a
-              key={label}
-              href={href}
-              aria-label={label}
-              className="text-primary-foreground/85 transition-transform hover:-translate-y-0.5 hover:text-primary-foreground"
-            >
-              <Icon className="h-5 w-5" />
-            </a>
-          ))}
-        </div>
       </div>
 
       <div className="border-t border-primary-foreground/15">
