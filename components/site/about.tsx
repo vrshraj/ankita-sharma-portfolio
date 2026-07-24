@@ -47,18 +47,33 @@ export function About() {
           </Reveal>
           <Reveal delay={2}>
             <p className="mt-6 text-pretty leading-relaxed text-muted-foreground">
-              I&apos;m a passionate social media manager helping businesses and
-              personal brands grow through strategic content, meaningful audience
-              engagement, and creative storytelling. From planning your content
-              calendar to crafting scroll-stopping visuals, I take social media
-              off your plate so you can focus on doing what you love.
+              I am a Social Media Content Strategist and Content Writer with experience in creating engaging, audience-focused content for brands across different niches. I enjoy transforming ideas into content that is informative, creative, and aligned with business goals.
             </p>
           </Reveal>
           <Reveal delay={3}>
             <p className="mt-4 text-pretty leading-relaxed text-muted-foreground">
-              I believe every brand has a story worth telling &mdash; and I&apos;m
-              here to tell yours with intention, consistency, and heart.
+              My expertise includes content strategy, scriptwriting, social media management, and content planning. I focus on understanding audience behavior, identifying content trends, and developing content that helps brands increase engagement and build a strong online presence.
             </p>
+          </Reveal>
+
+          <Reveal delay={4}>
+            <div className="mt-6">
+              <h3 className="font-serif text-2xl font-bold text-charcoal mb-4">
+                Experience
+              </h3>
+              <div>
+                <h4 className="font-semibold text-charcoal text-lg">Social Media Content Strategist &amp; Content Writer</h4>
+                <p className="text-sm font-semibold tracking-wider uppercase text-sage-dark mb-3 mt-1">Fobet Media</p>
+                <ul className="ml-5 list-disc space-y-1.5 text-sm text-pretty text-muted-foreground marker:text-peach">
+                  <li>Managed social media accounts for multiple clients, primarily on Instagram.</li>
+                  <li>Planned and maintained content calendars to ensure consistent posting.</li>
+                  <li>Created engaging and creative content ideas tailored to each client&apos;s niche.</li>
+                  <li>Wrote scripts for Instagram Reels and short-form video content.</li>
+                  <li>Developed carousel post concepts and structured educational content.</li>
+                  <li>Researched industry trends and competitor strategies to generate fresh content ideas.</li>
+                </ul>
+              </div>
+            </div>
           </Reveal>
 
         </div>

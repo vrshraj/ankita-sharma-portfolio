@@ -1,6 +1,6 @@
 'use client'
 
-import { InstagramIcon, LinkedinIcon, FacebookIcon } from './social-icons'
+import { LinkedinIcon } from './social-icons'
 
 const links = [
   { id: 'home', label: 'Home' },
@@ -11,9 +11,7 @@ const links = [
 ]
 
 const socials = [
-  { href: '#', label: 'Instagram', Icon: InstagramIcon },
   { href: '#', label: 'LinkedIn', Icon: LinkedinIcon },
-  { href: '#', label: 'Facebook', Icon: FacebookIcon },
 ]
 
 export function Footer() {

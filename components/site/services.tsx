@@ -8,19 +8,50 @@ import { WaveDivider } from './wave-divider'
 
 const services = [
   {
-    title: 'Social Media Management',
-    image: '/images/service-management.png',
-    points: ['Content planning', 'Scheduling', 'Community management', 'Monthly reporting'],
+    title: 'Content Strategy',
+    image: '/images/service-strategy-v4.png',
+    points: [
+      'Monthly Content Planning',
+      'Content Calendars',
+      'Audience Research',
+      'Competitor Analysis',
+      'Brand Content Strategy',
+    ],
   },
   {
     title: 'Content Creation',
-    image: '/images/service-content.png',
-    points: ['Reels', 'Carousels', 'Graphics', 'Captions'],
+    image: '/images/service-creation-v5.png',
+    points: [
+      'Instagram Reel Scripts',
+      'Carousel Content',
+      'Captions',
+      'Hook Writing',
+      'Content Research',
+      'Content Ideas',
+      'Story Content',
+    ],
   },
   {
-    title: 'Personal Branding',
-    image: '/images/service-branding.png',
-    points: ['LinkedIn strategy', 'Instagram growth', 'Positioning', 'Profile optimization'],
+    title: 'Social Media Management',
+    image: '/images/service-management-v4.png',
+    points: [
+      'Instagram Management',
+      'Content Scheduling',
+      'Profile Optimization',
+      'Community Engagement',
+      'Performance Tracking',
+    ],
+  },
+  {
+    title: 'Copywriting',
+    image: '/images/service-copywriting.png',
+    points: [
+      'Social Media Copy',
+      'Promotional Content',
+      'Educational Content',
+      'CTA Writing',
+      'Brand Messaging',
+    ],
   },
 ]
 
@@ -43,7 +74,7 @@ export function Services() {
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid gap-7 md:grid-cols-3">
+        <div className="mt-14 grid gap-7 md:grid-cols-2 lg:grid-cols-4">
           {services.map((service, i) => (
             <Reveal key={service.title} delay={i} className="h-full">
               <motion.article

@@ -5,17 +5,7 @@ import Image from 'next/image'
 import { Reveal } from './reveal'
 import { WaveDivider } from './wave-divider'
 
-const services = [
-  'Social Media Management',
-  'Content Creation',
-  'Personal Branding',
-  'Not sure yet',
-]
 
-const budgets = ['Under $500 / mo', '$500 – $1,000 / mo', '$1,000 – $2,500 / mo', '$2,500+ / mo']
-
-const fieldClass =
-  'w-full rounded-xl border border-border bg-card px-4 py-3 text-sm text-charcoal outline-none transition-colors placeholder:text-muted-foreground/70 focus:border-sage focus:ring-2 focus:ring-sage/30'
 
 export function Contact() {
   return (
