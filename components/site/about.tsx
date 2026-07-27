@@ -56,26 +56,6 @@ export function About() {
             </p>
           </Reveal>
 
-          <Reveal delay={4}>
-            <div className="mt-6">
-              <h3 className="font-serif text-2xl font-bold text-charcoal mb-4">
-                Experience
-              </h3>
-              <div>
-                <h4 className="font-semibold text-charcoal text-lg">Social Media Content Strategist &amp; Content Writer</h4>
-                <p className="text-sm font-semibold tracking-wider uppercase text-sage-dark mb-3 mt-1">Fobet Media</p>
-                <ul className="ml-5 list-disc space-y-1.5 text-sm text-pretty text-muted-foreground marker:text-peach">
-                  <li>Managed social media accounts for multiple clients, primarily on Instagram.</li>
-                  <li>Planned and maintained content calendars to ensure consistent posting.</li>
-                  <li>Created engaging and creative content ideas tailored to each client&apos;s niche.</li>
-                  <li>Wrote scripts for Instagram Reels and short-form video content.</li>
-                  <li>Developed carousel post concepts and structured educational content.</li>
-                  <li>Researched industry trends and competitor strategies to generate fresh content ideas.</li>
-                </ul>
-              </div>
-            </div>
-          </Reveal>
-
         </div>
       </div>
       

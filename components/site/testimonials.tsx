@@ -51,21 +51,7 @@ const clients = [
       'Planned educational content to improve audience engagement.',
     ],
   },
-  {
-    name: 'Business & Entrepreneurship',
-    industry: 'Various',
-    role: 'Content Research & Strategy',
-    responsibilities: [
-      'Researched trending business and startup topics.',
-      'Developed educational content ideas.',
-      'Wrote scripts around business concepts and emerging opportunities.',
-      'Created content designed to educate and engage aspiring entrepreneurs.',
-    ],
-  },
 ]
-
-
-
 export function Testimonials() {
   const [index, setIndex] = useState(0)
   const [perView, setPerView] = useState(1)
@@ -110,7 +96,7 @@ export function Testimonials() {
         </Reveal>
         <Reveal delay={1}>
           <h2 className="mt-3 text-center font-serif text-4xl font-bold text-primary-foreground sm:text-5xl">
-            Recent Projects
+            Success Stories
           </h2>
         </Reveal>
 

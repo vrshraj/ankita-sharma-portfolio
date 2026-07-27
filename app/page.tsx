@@ -7,7 +7,7 @@ import { Testimonials } from '@/components/site/testimonials'
 import { CtaBanner } from '@/components/site/cta-banner'
 import { Contact } from '@/components/site/contact'
 import { Footer } from '@/components/site/footer'
-
+import { SomeWork } from '@/components/site/some-work'
 export default function Home() {
   return (
     <>
@@ -16,6 +16,7 @@ export default function Home() {
         <Hero />
         <About />
         <Services />
+        <SomeWork />
         <WhyWork />
         <Testimonials />
         <CtaBanner />

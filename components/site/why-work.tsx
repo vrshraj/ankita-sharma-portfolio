@@ -30,9 +30,9 @@ export function WhyWork() {
         className="absolute inset-0 bg-[url('/about-img.png')] bg-cover bg-center bg-no-repeat opacity-20 grayscale"
       />
 
-      {/* wave from sage services into this section */}
+      {/* wave from beige SomeWork into this section */}
       <WaveDivider 
-        fill="var(--sage)" 
+        fill="var(--beige)" 
         stroke="var(--peach)"
         strokeWidth={10}
         className="absolute inset-x-0 top-0 -translate-y-px z-10" 
@@ -73,7 +73,7 @@ export function WhyWork() {
         </Reveal>
       </div>
       
-      {/* bottom wave into next section */}
+      {/* bottom wave into next section (sage) */}
       <WaveDivider 
         fill="var(--sage)" 
         stroke="var(--peach)"
